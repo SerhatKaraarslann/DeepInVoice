@@ -1,0 +1,725 @@
+[
+    {
+        "id": "doc_000",
+        "extraction": {
+            "summary_one_sentence": "Indian board plans own telecast of Australia series",
+            "entities": [
+                {
+                    "name": "Indian cricket board",
+                    "type": "ORGANIZATION"
+                },
+                {
+                    "name": "Australia",
+                    "type": "COUNTRY"
+                }
+            ],
+            "sentiment": "neutral",
+            "flags": []
+        }
+    },
+    {
+        "id": "doc_001",
+        "extraction": {
+            "summary_one_sentence": "Stocks rose due to lower jobless claims and positive forecasts from Nokia and Texas Instruments.",
+            "entities": [
+                {
+                    "name": "stocks",
+                    "type": "FINANCIAL_MARKET"
+                },
+                {
+                    "name": "jobless claims",
+                    "type": "ECONOMIC_INDICATOR"
+                },
+                {
+                    "name": "Nokia",
+                    "type": "TECHNOLOGY_COMPANY"
+                },
+                {
+                    "name": "Texas Instruments",
+                    "type": "TECHNOLOGY_COMPANY"
+                }
+            ],
+            "sentiment": "positive",
+            "flags": [
+                "has_financial_impact"
+            ]
+        }
+    },
+    {
+        "id": "doc_002",
+        "extraction": {
+            "summary_one_sentence": "Nuggets defeat Raptors with Anthony's 30 points and Martin's 24 points and 16 rebounds",
+            "entities": [
+                {
+                    "name": "Denver Nuggets",
+                    "type": "team"
+                },
+                {
+                    "name": "Toronto Raptors",
+                    "type": "team"
+                },
+                {
+                    "name": "Carmelo Anthony",
+                    "type": "player"
+                },
+                {
+                    "name": "Kenyon Martin",
+                    "type": "player"
+                }
+            ],
+            "sentiment": "positive",
+            "flags": [
+                "has_financial_impact"
+            ]
+        }
+    },
+    {
+        "id": "doc_003",
+        "extraction": {
+            "summary_one_sentence": "Stocks rise due to decline in jobless claims and positive forecasts from Nokia and Texas Instruments",
+            "entities": [
+                {
+                    "name": "stocks",
+                    "type": "FINANCIAL_MARKET"
+                },
+                {
+                    "name": "jobless claims",
+                    "type": "ECONOMIC_INDICATOR"
+                },
+                {
+                    "name": "Nokia",
+                    "type": "TECHNOLOGY_COMPANY"
+                },
+                {
+                    "name": "Texas Instruments",
+                    "type": "TECHNOLOGY_COMPANY"
+                }
+            ],
+            "sentiment": "positive",
+            "flags": [
+                "has_financial_impact"
+            ]
+        }
+    },
+    {
+        "id": "doc_004",
+        "extraction": {
+            "summary_one_sentence": "Half-Life 2 is a tech masterpiece with memorable characters and an original sci-fi story.",
+            "entities": [
+                {
+                    "name": "Valve Corp.",
+                    "type": "company"
+                },
+                {
+                    "name": "Half-Life",
+                    "type": "video_game"
+                }
+            ],
+            "sentiment": "positive",
+            "flags": [
+                "has_financial_impact",
+                "is_tech"
+            ]
+        }
+    },
+    {
+        "id": "doc_005",
+        "extraction": {
+            "summary_one_sentence": "China's inflation rate slows sharply but problems remain",
+            "entities": [
+                {
+                    "name": "China",
+                    "type": "country"
+                },
+                {
+                    "name": "inflation rate",
+                    "type": "economic_indicator"
+                },
+                {
+                    "name": "government efforts",
+                    "type": "political_action"
+                },
+                {
+                    "name": "food prices",
+                    "type": "economic_indicator"
+                }
+            ],
+            "sentiment": "neutral",
+            "flags": [
+                "has_financial_impact"
+            ]
+        }
+    },
+    {
+        "id": "doc_006",
+        "extraction": {
+            "summary_one_sentence": "Try Currency Trading Risk-Free with 100-to-1 Leverage and Dealbook Fx 2 Software",
+            "entities": [
+                {
+                    "name": "Currency Trading",
+                    "type": "ADV"
+                },
+                {
+                    "name": "Risk-Free",
+                    "type": "ADV"
+                },
+                {
+                    "name": "100-to-1 Leverage",
+                    "type": "ADV"
+                },
+                {
+                    "name": "Dealbook Fx 2",
+                    "type": "ENTITY"
+                }
+            ],
+            "sentiment": "positive",
+            "flags": [
+                "is_sport"
+            ]
+        }
+    },
+    {
+        "id": "doc_007",
+        "extraction": {
+            "summary_one_sentence": "OPEC can increase output capacity by 1 million barrels per day by year-end.",
+            "entities": [
+                {
+                    "name": "Organization of Petroleum Exporting Countries (OPEC)",
+                    "type": "ORGANIZATION"
+                },
+                {
+                    "name": "crude oil",
+                    "type": "RESOURCE"
+                }
+            ],
+            "sentiment": "neutral",
+            "flags": [
+                "is_other"
+            ]
+        }
+    },
+    {
+        "id": "doc_008",
+        "extraction": {
+            "summary_one_sentence": "Intel stops production of 4 GHz Pentium 4 processor",
+            "entities": [
+                {
+                    "name": "Intel",
+                    "type": "ORGANIZATION"
+                },
+                {
+                    "name": "Pentium 4 processor",
+                    "type": "PRODUCT"
+                }
+            ],
+            "sentiment": "negative",
+            "flags": [
+                "has_financial_impact"
+            ]
+        }
+    },
+    {
+        "id": "doc_009",
+        "extraction": {
+            "summary_one_sentence": "Amazon acquires China's largest web retailer, Joyo.com, for $367.5 million.",
+            "entities": [
+                {
+                    "name": "Amazon",
+                    "type": "company"
+                },
+                {
+                    "name": "Joyo.com Limited",
+                    "type": "company"
+                },
+                {
+                    "name": "British Virgin Islands",
+                    "type": "location"
+                }
+            ],
+            "sentiment": "neutral",
+            "flags": [
+                "has_financial_impact"
+            ]
+        }
+    },
+    {
+        "id": "doc_010",
+        "extraction": {
+            "summary_one_sentence": "Bookies are taking bets on a new Band Aid single being Christmas No. 1.",
+            "entities": [
+                {
+                    "name": "Band Aid",
+                    "type": "Organization"
+                },
+                {
+                    "name": "Midge Ure",
+                    "type": "Person"
+                }
+            ],
+            "sentiment": "neutral",
+            "flags": [
+                "is_sport"
+            ]
+        }
+    },
+    {
+        "id": "doc_011",
+        "extraction": {
+            "summary_one_sentence": "Virginia Tech Hokies defeat Maryland Terrapins in football game, potentially impacting their ACC title intentions.",
+            "entities": [
+                {
+                    "name": "Ralph Friedgen",
+                    "type": "PERSON"
+                },
+                {
+                    "name": "Frank Beamer",
+                    "type": "PERSON"
+                },
+                {
+                    "name": "Virginia Tech Hokies",
+                    "type": "ORGANIZATION"
+                },
+                {
+                    "name": "Maryland Terrapins",
+                    "type": "ORGANIZATION"
+                }
+            ],
+            "sentiment": "positive",
+            "flags": [
+                "has_financial_impact"
+            ]
+        }
+    },
+    {
+        "id": "doc_012",
+        "extraction": {
+            "summary_one_sentence": "Adam Gilchrist is confident about Australia's chances against India in the upcoming Test series.",
+            "entities": [
+                {
+                    "name": "Adam Gilchrist",
+                    "type": "PERSON"
+                },
+                {
+                    "name": "Australia",
+                    "type": "ORGANIZATION"
+                },
+                {
+                    "name": "India",
+                    "type": "ORGANIZATION"
+                }
+            ],
+            "sentiment": "positive",
+            "flags": [
+                "has_financial_impact"
+            ]
+        }
+    },
+    {
+        "id": "doc_013",
+        "extraction": {
+            "summary_one_sentence": "Israeli tanks enter Gaza refugee camp to hunt down militants",
+            "entities": [
+                {
+                    "name": "Israeli Tanks",
+                    "type": "Military Vehicle"
+                },
+                {
+                    "name": "Jabalya Refugee Camp",
+                    "type": "Location"
+                },
+                {
+                    "name": "Gaza Strip",
+                    "type": "Geographical Feature"
+                }
+            ],
+            "sentiment": "neutral",
+            "flags": [
+                "is_political"
+            ]
+        }
+    },
+    {
+        "id": "doc_014",
+        "extraction": {
+            "summary_one_sentence": "Microsoft meets with EU officials in procedure meeting.",
+            "entities": [
+                {
+                    "name": "Microsoft",
+                    "type": "ORGANIZATION"
+                },
+                {
+                    "name": "EU Officials",
+                    "type": "PERSON"
+                }
+            ],
+            "sentiment": "neutral",
+            "flags": [
+                "is_political"
+            ]
+        }
+    },
+    {
+        "id": "doc_015",
+        "extraction": {
+            "summary_one_sentence": "Nevada implements first touch-screen voting machines with paper trail.",
+            "entities": [
+                {
+                    "name": "Nevada",
+                    "type": "LOCATION"
+                },
+                {
+                    "name": "touch-screen voting machines",
+                    "type": "TECHNOLOGY"
+                },
+                {
+                    "name": "paper trail",
+                    "type": "TECHNOLOGY"
+                }
+            ],
+            "sentiment": "neutral",
+            "flags": [
+                "is_political"
+            ]
+        }
+    },
+    {
+        "id": "doc_016",
+        "extraction": {
+            "summary_one_sentence": "Police issue warning over letter bombs in Bedfordshire",
+            "entities": [
+                {
+                    "name": "Bedfordshire Police",
+                    "type": "ORGANIZATION"
+                },
+                {
+                    "name": "letter bombs",
+                    "type": "OBJECT"
+                }
+            ],
+            "sentiment": "neutral",
+            "flags": [
+                "has_financial_impact"
+            ]
+        }
+    },
+    {
+        "id": "doc_017",
+        "extraction": {
+            "summary_one_sentence": "Phillips wins Olympic long jump gold",
+            "entities": [
+                {
+                    "name": "Dwight Phillips",
+                    "type": "PERSON"
+                },
+                {
+                    "name": "United States",
+                    "type": "ORGANIZATION"
+                },
+                {
+                    "name": "Olympic Games",
+                    "type": "EVENT"
+                }
+            ],
+            "sentiment": "positive",
+            "flags": [
+                "has_financial_impact"
+            ]
+        }
+    },
+    {
+        "id": "doc_018",
+        "extraction": {
+            "summary_one_sentence": "UN aid plane shot at in Ivory Coast",
+            "entities": [
+                {
+                    "name": "United Nations World Food Programme (WFP)",
+                    "type": "Organization"
+                },
+                {
+                    "name": "Ivory Coast",
+                    "type": "Location"
+                }
+            ],
+            "sentiment": "negative",
+            "flags": [
+                "has_financial_impact"
+            ]
+        }
+    },
+    {
+        "id": "doc_019",
+        "extraction": {
+            "summary_one_sentence": "Troika, founded by former Black Isle group members, releases Vampire: The Masquerade - Bloodlines.",
+            "entities": [
+                {
+                    "name": "Troika",
+                    "type": "company"
+                },
+                {
+                    "name": "Black Isle group",
+                    "type": "company"
+                },
+                {
+                    "name": "Fallout",
+                    "type": "video_game"
+                }
+            ],
+            "sentiment": "neutral",
+            "flags": [
+                "has_financial_impact"
+            ]
+        }
+    },
+    {
+        "id": "doc_020",
+        "extraction": {
+            "summary_one_sentence": "Israel destroys refugee homes, kills one in Gaza City",
+            "entities": [
+                {
+                    "name": "Israel",
+                    "type": "country"
+                },
+                {
+                    "name": "Gaza Strip",
+                    "type": "location"
+                },
+                {
+                    "name": "Palestinian refugee camp",
+                    "type": "location"
+                },
+                {
+                    "name": "mortar round",
+                    "type": "weapon"
+                },
+                {
+                    "name": "Israeli-American woman",
+                    "type": "person"
+                }
+            ],
+            "sentiment": "negative",
+            "flags": [
+                "is_entertainment",
+                "is_other",
+                "is_tech",
+                "is_political",
+                "is_sport"
+            ]
+        }
+    },
+    {
+        "id": "doc_021",
+        "extraction": {
+            "summary_one_sentence": "PeopleSoft revises third-quarter profit, Oracle adds $2.6 million to bottom line after tax adjustment related to ex-CEO's severance package.",
+            "entities": [
+                {
+                    "name": "PeopleSoft",
+                    "type": "ORGANIZATION"
+                },
+                {
+                    "name": "Oracle",
+                    "type": "ORGANIZATION"
+                },
+                {
+                    "name": "ex-CEO's severance package",
+                    "type": "CONTRACT"
+                }
+            ],
+            "sentiment": "neutral",
+            "flags": [
+                "has_financial_impact"
+            ]
+        }
+    },
+    {
+        "id": "doc_022",
+        "extraction": {
+            "summary_one_sentence": "South African golfer Richard Sterne wins his first European Tour event at the Madrid Open.",
+            "entities": [
+                {
+                    "name": "SCHOOL #39",
+                    "type": "LOCATION"
+                },
+                {
+                    "name": "Richard Sterne",
+                    "type": "PERSON"
+                }
+            ],
+            "sentiment": "positive",
+            "flags": [
+                "has_financial_impact"
+            ]
+        }
+    },
+    {
+        "id": "doc_023",
+        "extraction": {
+            "summary_one_sentence": "Astros pitcher Brandon Backe hits his first career homer and allows one run in seven innings, keeping Houston in the NL wild-card chase with a 11-5 win over Cincinnati Reds.",
+            "entities": [
+                {
+                    "name": "Brandon Backe",
+                    "type": "PERSON"
+                },
+                {
+                    "name": "Cincinnati Reds",
+                    "type": "ORGANIZATION"
+                },
+                {
+                    "name": "NL wild-card chase",
+                    "type": "EVENT"
+                }
+            ],
+            "sentiment": "positive",
+            "flags": [
+                "has_financial_impact"
+            ]
+        }
+    },
+    {
+        "id": "doc_024",
+        "extraction": {
+            "summary_one_sentence": "Kerry warns against Bush troop withdrawal plan",
+            "entities": [
+                {
+                    "name": "John Kerry",
+                    "type": "PERSON"
+                },
+                {
+                    "name": "George W. Bush",
+                    "type": "PERSON"
+                },
+                {
+                    "name": "war on terrorism",
+                    "type": "CONFLICT"
+                },
+                {
+                    "name": "North Korea",
+                    "type": "COUNTRY"
+                }
+            ],
+            "sentiment": "negative",
+            "flags": [
+                "has_financial_impact"
+            ]
+        }
+    },
+    {
+        "id": "doc_025",
+        "extraction": {
+            "summary_one_sentence": "TSA overpaid Boeing by $49 million for explosive detection systems.",
+            "entities": [
+                {
+                    "name": "TSA",
+                    "type": "GOVERNMENT_ORGANIZATION"
+                },
+                {
+                    "name": "Boeing",
+                    "type": "CORPORATION"
+                }
+            ],
+            "sentiment": "negative",
+            "flags": [
+                "is_political"
+            ]
+        }
+    },
+    {
+        "id": "doc_026",
+        "extraction": {
+            "summary_one_sentence": "European stock markets rose and absorbed three share placements on Wednesday, boosted by Wall Street's strong finish while oil prices held close to $50 a barrel.",
+            "entities": [
+                {
+                    "name": "European stock markets",
+                    "type": "location"
+                },
+                {
+                    "name": "Wall Street",
+                    "type": "location"
+                },
+                {
+                    "name": "oil prices",
+                    "type": "quantity"
+                }
+            ],
+            "sentiment": "positive",
+            "flags": [
+                "has_financial_impact"
+            ]
+        }
+    },
+    {
+        "id": "doc_027",
+        "extraction": {
+            "summary_one_sentence": "Red Hat names new CFO",
+            "entities": [
+                {
+                    "name": "Red Hat",
+                    "type": "ORGANIZATION"
+                },
+                {
+                    "name": "Charles Peters Jr.",
+                    "type": "PERSON"
+                },
+                {
+                    "name": "Kevin Thompson",
+                    "type": "PERSON"
+                }
+            ],
+            "sentiment": "neutral",
+            "flags": [
+                "has_financial_impact"
+            ]
+        }
+    },
+    {
+        "id": "doc_028",
+        "extraction": {
+            "summary_one_sentence": "Jobless claims rise unexpectedly to 357,000",
+            "entities": [
+                {
+                    "name": "Labor Department",
+                    "type": "GOVERNMENT_ORGANIZATION"
+                },
+                {
+                    "name": "public holiday",
+                    "type": "HOLIDAY"
+                }
+            ],
+            "sentiment": "neutral",
+            "flags": [
+                "has_financial_impact"
+            ]
+        }
+    },
+    {
+        "id": "doc_029",
+        "extraction": {
+            "summary_one_sentence": "Microsoft CEO Ballmer rules out acquisitions of PeopleSoft, Oracle, and SAP in business applications market",
+            "entities": [
+                {
+                    "name": "Microsoft Corp.",
+                    "type": "ORGANIZATION"
+                },
+                {
+                    "name": "Steven Ballmer",
+                    "type": "PERSON"
+                },
+                {
+                    "name": "PeopleSoft Inc.",
+                    "type": "ORGANIZATION"
+                },
+                {
+                    "name": "Oracle Corp.",
+                    "type": "ORGANIZATION"
+                },
+                {
+                    "name": "SAP AG",
+                    "type": "ORGANIZATION"
+                }
+            ],
+            "sentiment": "negative",
+            "flags": [
+                "has_financial_impact"
+            ]
+        }
+    }
+]

@@ -2,3 +2,4 @@ datasets
 langchain-core
 langchain-ollama
 matplotlib
+tranformers
