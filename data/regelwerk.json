@@ -1,0 +1,134 @@
+{
+  "version": "1.1",
+  "description": "Regelwerk zur Vertragsanalyse. Jede Regel prüft eine Bedingung im Vertragstext und setzt bei Zutreffen einen Tag. Tags dienen der nachgelagerten Risiko- und Compliance-Bewertung. Alle Regeln sind gegen den CUAD-Goldstandard evaluierbar.",
+  "rules": [
+    {
+      "id": "R001",
+      "name": "Exklusivitätsklausel vorhanden",
+      "description": "Der Vertrag enthält eine Klausel, die eine der Parteien dazu verpflichtet, die Geschäftsbeziehung exklusiv zu führen oder Wettbewerber auszuschließen.",
+      "condition": "Vertragstext enthält Hinweise auf 'exclusive', 'exclusivity', 'sole provider', 'no other party' o. Ä.",
+      "tag": "exclusivity",
+      "severity": "high"
+    },
+    {
+      "id": "R002",
+      "name": "Wettbewerbsverbot (Non-Compete)",
+      "description": "Eine Vertragspartei verpflichtet sich, in einem definierten Zeitraum oder Gebiet keine Wettbewerbstätigkeit auszuüben.",
+      "condition": "Vertragstext enthält 'non-compete', 'shall not compete', 'restraint of trade' o. Ä.",
+      "tag": "non_compete",
+      "severity": "high"
+    },
+    {
+      "id": "R003",
+      "name": "Change-of-Control-Klausel",
+      "description": "Bei Eigentümerwechsel oder Übernahme einer Partei greifen besondere Rechte (z. B. Kündigung, Zustimmungspflicht).",
+      "condition": "Vertragstext enthält 'change of control', 'change in ownership', 'merger or acquisition triggers' o. Ä.",
+      "tag": "change_of_control",
+      "severity": "high"
+    },
+    {
+      "id": "R004",
+      "name": "Anti-Assignment-Klausel",
+      "description": "Eine Vertragspartei darf den Vertrag nicht ohne Zustimmung der Gegenseite an Dritte abtreten.",
+      "condition": "Vertragstext enthält 'shall not assign', 'no assignment without consent', 'non-assignable' o. Ä.",
+      "tag": "anti_assignment",
+      "severity": "medium"
+    },
+    {
+      "id": "R005",
+      "name": "Automatische Vertragsverlängerung",
+      "description": "Der Vertrag verlängert sich ohne aktive Kündigung automatisch um einen definierten Zeitraum.",
+      "condition": "Vertragstext enthält 'auto-renew', 'automatically renew', 'unless terminated' o. Ä.",
+      "tag": "auto_renewal",
+      "severity": "medium"
+    },
+    {
+      "id": "R006",
+      "name": "Mindestvertragslaufzeit definiert",
+      "description": "Der Vertrag enthält eine festgelegte Mindestlaufzeit vor möglicher Kündigung.",
+      "condition": "Vertragstext nennt einen festen Zeitraum (z. B. 'initial term of X years', 'minimum term').",
+      "tag": "minimum_term",
+      "severity": "low"
+    },
+    {
+      "id": "R007",
+      "name": "Kündigung zur Bequemlichkeit (Termination for Convenience)",
+      "description": "Eine oder beide Parteien können den Vertrag ohne Begründung kündigen.",
+      "condition": "Vertragstext enthält 'termination for convenience', 'terminate without cause', 'terminate at will' o. Ä.",
+      "tag": "termination_convenience",
+      "severity": "medium"
+    },
+    {
+      "id": "R008",
+      "name": "Meistbegünstigungsklausel (Most-Favored-Nation)",
+      "description": "Eine Partei erhält automatisch dieselben oder bessere Konditionen, die der anderen Partei gegenüber Dritten gewährt werden.",
+      "condition": "Vertragstext enthält 'most favored', 'most favoured nation', 'no less favorable terms' o. Ä.",
+      "tag": "most_favored_nation",
+      "severity": "high"
+    },
+    {
+      "id": "R009",
+      "name": "Geistiges Eigentum – Übertragung",
+      "description": "Der Vertrag regelt die Übertragung oder Lizenzierung von geistigem Eigentum (IP) zwischen den Parteien.",
+      "condition": "Vertragstext enthält 'intellectual property', 'IP rights', 'assignment of inventions', 'license to use' o. Ä.",
+      "tag": "ip_transfer",
+      "severity": "medium"
+    },
+    {
+      "id": "R010",
+      "name": "Lizenzgewährung (Grant of License)",
+      "description": "Der Vertrag erteilt einer Partei eine ausdrückliche Lizenz zur Nutzung von Software, Marken oder anderen Rechten.",
+      "condition": "Vertragstext enthält 'grants a license', 'hereby licenses', 'right to use' o. Ä.",
+      "tag": "license_grant",
+      "severity": "medium"
+    },
+    {
+      "id": "R011",
+      "name": "Haftungsbegrenzung",
+      "description": "Die Haftung einer oder beider Parteien wird auf einen Höchstbetrag oder Schadensart begrenzt.",
+      "condition": "Vertragstext enthält 'limitation of liability', 'liability shall not exceed', 'cap on damages' o. Ä.",
+      "tag": "liability_cap",
+      "severity": "high"
+    },
+    {
+      "id": "R012",
+      "name": "Versicherungspflicht",
+      "description": "Eine Vertragspartei muss bestimmte Versicherungen mit definierten Mindestdeckungen unterhalten.",
+      "condition": "Vertragstext enthält 'shall maintain insurance', 'insurance coverage of at least', 'liability insurance' o. Ä.",
+      "tag": "insurance_required",
+      "severity": "medium"
+    },
+    {
+      "id": "R013",
+      "name": "Audit-Rechte",
+      "description": "Eine Partei hat das Recht, die Bücher oder Geschäftsunterlagen der anderen Partei zu prüfen.",
+      "condition": "Vertragstext enthält 'right to audit', 'audit rights', 'inspect books and records' o. Ä.",
+      "tag": "audit_rights",
+      "severity": "low"
+    },
+    {
+      "id": "R014",
+      "name": "Anwendbares Recht spezifiziert",
+      "description": "Der Vertrag legt explizit fest, welches Rechtssystem zur Anwendung kommt.",
+      "condition": "Vertragstext enthält 'governed by the laws of', 'shall be construed in accordance with' o. Ä.",
+      "tag": "governing_law",
+      "severity": "low"
+    },
+    {
+      "id": "R015",
+      "name": "Mindestabnahmemenge oder Mindestumsatz",
+      "description": "Eine Partei verpflichtet sich zu einer Mindestabnahme oder einem Mindestumsatz innerhalb des Vertragszeitraums.",
+      "condition": "Vertragstext enthält 'minimum purchase', 'minimum commitment', 'shall purchase no less than' o. Ä.",
+      "tag": "minimum_commitment",
+      "severity": "high"
+    },
+    {
+      "id": "R016",
+      "name": "Garantieerklärungen (Warranties) vorhanden",
+      "description": "Eine oder beide Parteien geben ausdrückliche Garantien hinsichtlich Qualität, Funktion oder Eigenschaften.",
+      "condition": "Vertragstext enthält 'warrants that', 'represents and warrants', 'express warranty' o. Ä.",
+      "tag": "warranty",
+      "severity": "medium"
+    }
+  ]
+}
