@@ -95,7 +95,8 @@ Als letztes würde ich Cloud Services nutzen, die mehrere GPUs und mehr Rechenle
 
 # AUFGABE B
 
-# Bemerkung: Wenn ich die mir gegebene Code für Aufgabe B ausführe, habe ich einen Fehler bekommen. Der Fehler war so :"trust_remote_code` is not supported anymore. Please check that the Hugging Face dataset 'theatticusproject/cuad-qa' isn't based on a loading script and remove `trust_remote_code`.Dieser Fehler tritt auf, weil die Hugging Face Bibliothek die Option `trust_remote_code` nicht mehr unterstützt. Um diesen Fehler zu beheben habe ich die datasets Bibliothek durch die Version 2.19.1 ersetzt, da diese Version die `trust_remote_code` Option noch unterstützt.
+## Bemerkung: 
+Wenn ich die mir gegebene Code für Aufgabe B ausführe, habe ich einen Fehler bekommen. Der Fehler war so :"trust_remote_code` is not supported anymore. Please check that the Hugging Face dataset 'theatticusproject/cuad-qa' isn't based on a loading script and remove `trust_remote_code`.Dieser Fehler tritt auf, weil die Hugging Face Bibliothek die Option `trust_remote_code` nicht mehr unterstützt. Um diesen Fehler zu beheben habe ich die datasets Bibliothek durch die Version 2.19.1 ersetzt, da diese Version die `trust_remote_code` Option noch unterstützt.
 
 # 5. Welchen Pfad hast Du gewählt und warum? Welche Alternativen hast Du ausgeschlossen und warum?
 
