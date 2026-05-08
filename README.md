@@ -6,8 +6,12 @@ Ich habe versucht die Aufgaben mit professionellen Sichten zu lösen. Das bedeut
 ## Ordnerstruktur
 
 - `data/` enthält die Eingabedaten, den Goldstandard und das Regelwerk.
-- `src/data_preparation.py` erstellt aus einem Datensatz eine kleinere, einheitlich formatierte JSONL-Datei.
-- `src/model_compare.py` führt die eigentliche Benchmark durch, indem es verschiedene Modelle testet und die Ergebnisse auswertet.
+- `src/aufgabe_a` beinhaltet die Datenaufbereitung und die Lösung für Aufgabe A.
+- `src/aufgabe_b` beinhaltet die Datenaufbereitung und die Lösung für Aufgabe B
+- `requirements.txt` listet die benötigten Python-Pakete auf.
+- `README.md` enthält die Dokumentation und Anweisungen zur Nutzung des Projekts.
+- `benchmark_results.png` zeigt die Ergebnisse des Modellvergleichs für Aufgabe A.
+- `gitignore` enthält die Dateien und Ordner, die von Git ignoriert werden sollen.
 
 ## Installation
 
@@ -19,23 +23,41 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Datenaufbereitung
+## Datenaufbereitung für Aufgabe A
 
-Mit `src/data_preparation.py` werden aus dem Datensatz `ag_news` 30 zufällige Testbeispiele erzeugt und als JSONL-Datei gespeichert.
+Mit `src/aufgabe_a/data_preparation.py` werden aus dem Datensatz `ag_news` 30 zufällige Testbeispiele erzeugt und als JSONL-Datei gespeichert.
 
 ```bash
-python src/data_preparation.py
+python src/aufgabe_a/data_preparation.py
 ```
 
 ## Modellvergleich
 
-`src/model_compare.py` gibt die Möglichkeit, 3 verschieden Ollama Modelle zu testen. Die Ergebnisse werden in einer Tabelle zusammengefasst und als Plot visualisiert. 
+`src/aufgabe_a/model_compare.py` gibt die Möglichkeit, 3 verschieden Ollama Modelle zu testen. Die Ergebnisse werden in einer Tabelle zusammengefasst und als Plot visualisiert. 
 
 ```bash
-python src/model_compare.py
+python src/aufgabe_a/model_compare.py
+```
+## Lösung für Aufgabe A
+Die Lösung für Aufgabe A befindet sich in `src/aufgabe_a/solution.py`. Das Skript liest 30 Dokumente aus der JSONL-Datei ein, verarbeitet sie mit dem ausgewählten Modell und speichert die Ergebnisse in `data/aufgabe_a_results.json`.
+
+```bash
+python src/aufgabe_a/structured_news_extractor.py
 ```
 
+## Datenaufbereitung für Aufgabe B
+`src/aufgabe_b/data_preparation.py` bereitet die Daten für Aufgabe B vor, indem es 50 Verträge aus dem CUAD-Datensatz extrahiert und in `data/aufgabe_b_contracts.jsonl` Datei speichert.
+
+```bash
+python src/aufgabe_b/data_preparation.py
+```
+
+## Lösung für Aufgabe B
+
+
+
 ## Fragen und Meine Antworten
+# AUFGABE A
 # 1.Welches Modell, welche Quantisierung — und warum?
 Um die richtige Modell und Quantisierung zu wählen, habe ich mich auf meinem lokalen Rechner 3 verschiedene Modelle (Llama3.1, Mistral, Qwen2.5) mit 2 verschiedenen Quantisierungen(4bit und 8bit) installiert. Ich wollte meine Modellauswahl nicht nur aus dem Bauch heraus treffen, sondern auch auf Basis von Performance- und Ressourcenüberlegungen. Mein lokales System hat eine Nvidia P2000 GPU mit 5 GB VRAM, was die Auswahl der Modelle und Quantisierungen stark beeinflusst hat. 
 In dem model_compare.py Skript habe ich erste 3 Artikel aus dem aufgabe_a_data.jsonl datensatz genommen und wie die Anforderungen beschrieben, getestet. Ich habe die Antworten der Modelle nach Zeit, Richtigkeit und Vollständigkeit bewertet. Das Erebnis steht in der benchmark_results.png Datei.
@@ -70,3 +92,17 @@ Ich habe die Dokumentation von der vllm und sglang gelesen und gesehen, dass vll
 Außerdem würde ich wahrscheinlich die Verarbeitung in Batches durchführen, um die Effizienz zu steigern und die Ressourcen besser zu nutzen. Anstatt jedes Dokument einzeln zu verarbeiten, könnte ich mehrere Dokumente gleichzeitig an das Modell senden, indem ich asynchrone methoden,anstatt chain.invoke chain.ainvoke, verwende.
 
 Als letztes würde ich Cloud Services nutzen, die mehrere GPUs und mehr Rechenleistung bieten. So könnte ich das Batching und die Parallelisierung von vLLM/SGLang voll ausnutzen, um die 1.000 Dokumente ohne lokale Hardware-Engpässe effizient zu  verarbeiten.
+
+# AUFGABE B
+
+# Bemerkung: Wenn ich die mir gegebene Code für Aufgabe B ausführe, habe ich einen Fehler bekommen. Der Fehler war so :"trust_remote_code` is not supported anymore. Please check that the Hugging Face dataset 'theatticusproject/cuad-qa' isn't based on a loading script and remove `trust_remote_code`.Dieser Fehler tritt auf, weil die Hugging Face Bibliothek die Option `trust_remote_code` nicht mehr unterstützt. Um diesen Fehler zu beheben habe ich die datasets Bibliothek durch die Version 2.19.1 ersetzt, da diese Version die `trust_remote_code` Option noch unterstützt.
+
+# 5. Welchen Pfad hast Du gewählt und warum? Welche Alternativen hast Du ausgeschlossen und warum?
+
+# 6. Wenn RAG: Welches Embedding-Modell, welcher Chunking-Ansatz, welche Retrieval-Strategie? Hast Du Alternativen ausprobiert?
+
+# 7. Was hast Du ausprobiert und verworfen?
+
+# 8. Wo macht Dein System Fehler — Extraktion, Retrieval oder Regelanwendung?
+
+# 9. Wenn Du eine Woche mehr Zeit hättest — was würdest Du als Nächstes angehen?
