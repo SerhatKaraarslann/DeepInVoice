@@ -1,0 +1,1379 @@
+{
+    "results": [
+        {
+            "id": "contract_000",
+            "title": "EmbarkComInc_19991008_S-1A_EX-10.10_6487661_EX-10.10_Co-Branding Agreement",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": false,
+                "minimum_commitment": false,
+                "warranty": true
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "license_grant",
+                "warranty"
+            ]
+        },
+        {
+            "id": "contract_001",
+            "title": "OASYSMOBILE,INC_07_05_2001-EX-10.17-OUTSOURCING AGREEMENT",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": true,
+                "change_of_control": false,
+                "anti_assignment": true,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": false,
+                "minimum_commitment": false,
+                "warranty": true
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "non_compete",
+                "anti_assignment",
+                "license_grant",
+                "warranty"
+            ]
+        },
+        {
+            "id": "contract_002",
+            "title": "IntegrityFunds_20200121_485BPOS_EX-99.E UNDR CONTR_11948727_EX-99.E UNDR CONTR_Service Agreement",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": false,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": true,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "governing_law"
+            ]
+        },
+        {
+            "id": "contract_003",
+            "title": "OPTIMIZEDTRANSPORTATIONMANAGEMENT,INC_07_26_2000-EX-6.6-DISTRIBUTOR AGREEMENT",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": true,
+                "minimum_term": true,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": true,
+                "minimum_commitment": false,
+                "warranty": true
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "auto_renewal",
+                "minimum_term",
+                "license_grant",
+                "governing_law",
+                "warranty"
+            ]
+        },
+        {
+            "id": "contract_004",
+            "title": "EmmisCommunicationsCorp_20191125_8-K_EX-10.6_11906433_EX-10.6_Marketing Agreement",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": false,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "license_grant"
+            ]
+        },
+        {
+            "id": "contract_005",
+            "title": "IGENEBIOTECHNOLOGYINC_05_13_2003-EX-1-JOINT VENTURE AGREEMENT",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": false,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": false,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "exclusivity"
+            ]
+        },
+        {
+            "id": "contract_006",
+            "title": "ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT",
+            "evaluation": {
+                "exclusivity": false,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": false,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "license_grant"
+            ]
+        },
+        {
+            "id": "contract_007",
+            "title": "NANOPHASETECHNOLOGIESCORP_11_01_2005-EX-99.1-DISTRIBUTOR AGREEMENT",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": true,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "license_grant",
+                "governing_law"
+            ]
+        },
+        {
+            "id": "contract_008",
+            "title": "PcquoteComInc_19990721_S-1A_EX-10.11_6377149_EX-10.11_Co-Branding Agreement3",
+            "evaluation": {
+                "exclusivity": false,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": true,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": true,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "anti_assignment",
+                "license_grant",
+                "governing_law"
+            ]
+        },
+        {
+            "id": "contract_009",
+            "title": "SEPARATEACCOUNTIIOFAGL_05_02_2011-EX-99.(J)(4)-UNCONDITIONAL CAPITAL MAINTENANCE AGREEMENT",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": true,
+                "insurance_required": true,
+                "audit_rights": true,
+                "governing_law": true,
+                "minimum_commitment": true,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "license_grant",
+                "liability_cap",
+                "insurance_required",
+                "audit_rights",
+                "governing_law",
+                "minimum_commitment"
+            ]
+        },
+        {
+            "id": "contract_010",
+            "title": "InvendaCorp_20000828_S-1A_EX-10.2_2588206_EX-10.2_Co-Branding Agreement",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": true,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "license_grant",
+                "governing_law"
+            ]
+        },
+        {
+            "id": "contract_011",
+            "title": "FIDELITYNATIONALINFORMATIONSERVICES,INC_08_05_2009-EX-10.3-INTELLECTUAL PROPERTY AGREEMENT",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": true,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": false,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "ip_transfer",
+                "license_grant"
+            ]
+        },
+        {
+            "id": "contract_012",
+            "title": "VERICELCORP_08_06_2019-EX-10.10-SUPPLY AGREEMENT",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": false,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "license_grant"
+            ]
+        },
+        {
+            "id": "contract_013",
+            "title": "SoupmanInc_20150814_8-K_EX-10.1_9230148_EX-10.1_Franchise Agreement2",
+            "evaluation": {
+                "exclusivity": false,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": false,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": true,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "governing_law"
+            ]
+        },
+        {
+            "id": "contract_014",
+            "title": "LEGACYTECHNOLOGYHOLDINGS,INC_12_09_2005-EX-10.2-DISTRIBUTOR AGREEMENT",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": true,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": false,
+                "liability_cap": false,
+                "insurance_required": true,
+                "audit_rights": false,
+                "governing_law": true,
+                "minimum_commitment": false,
+                "warranty": true
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "auto_renewal",
+                "insurance_required",
+                "governing_law",
+                "warranty"
+            ]
+        },
+        {
+            "id": "contract_015",
+            "title": "BONTONSTORESINC_04_20_2018-EX-99.3-AGENCY AGREEMENT",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": false,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "license_grant"
+            ]
+        },
+        {
+            "id": "contract_016",
+            "title": "INTRICONCORP_03_10_2009-EX-10.22-Strategic Alliance Agreement",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": false,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "license_grant"
+            ]
+        },
+        {
+            "id": "contract_017",
+            "title": "FEDERATEDGOVERNMENTINCOMESECURITIESINC_04_28_2020-EX-99.SERV AGREE-SERVICES AGREEMENT_SECONDAMENDMENT",
+            "evaluation": {
+                "exclusivity": false,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": true,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": true,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "anti_assignment",
+                "license_grant",
+                "governing_law"
+            ]
+        },
+        {
+            "id": "contract_018",
+            "title": "VERTICALNETINC_04_01_2002-EX-10.19-MAINTENANCE AND SUPPORT AGREEMENT",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": true,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "license_grant",
+                "governing_law"
+            ]
+        },
+        {
+            "id": "contract_019",
+            "title": "InmodeLtd_20190729_F-1A_EX-10.9_11743243_EX-10.9_Manufacturing Agreement",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": true,
+                "minimum_term": true,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": false,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": true,
+                "governing_law": true,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "auto_renewal",
+                "minimum_term",
+                "audit_rights",
+                "governing_law"
+            ]
+        },
+        {
+            "id": "contract_020",
+            "title": "Cerus Corporation - FIRST AMEND TO SUPPLY AND MANUFACTURING AGREEMENT",
+            "evaluation": {
+                "exclusivity": false,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": true,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": true,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "anti_assignment",
+                "license_grant",
+                "governing_law"
+            ]
+        },
+        {
+            "id": "contract_021",
+            "title": "KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": false,
+                "change_of_control": true,
+                "anti_assignment": true,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": true,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "change_of_control",
+                "anti_assignment",
+                "license_grant",
+                "governing_law"
+            ]
+        },
+        {
+            "id": "contract_022",
+            "title": "PREMIERBIOMEDICALINC_05_14_2020-EX-10.2-INTELLECTUAL PROPERTY AGREEMENT",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": false,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "license_grant"
+            ]
+        },
+        {
+            "id": "contract_023",
+            "title": "ADIANUTRITION,INC_04_01_2005-EX-10.D2-RESELLER AGREEMENT",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": false,
+                "minimum_commitment": false,
+                "warranty": true
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "license_grant",
+                "warranty"
+            ]
+        },
+        {
+            "id": "contract_024",
+            "title": "CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement2",
+            "evaluation": {
+                "exclusivity": false,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": true,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "license_grant",
+                "governing_law"
+            ]
+        },
+        {
+            "id": "contract_025",
+            "title": "MACY_S,INC_05_11_2020-EX-99.4-JOINT FILING AGREEMENT",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": false,
+                "change_of_control": true,
+                "anti_assignment": true,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": false,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": true,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "change_of_control",
+                "anti_assignment",
+                "governing_law"
+            ]
+        },
+        {
+            "id": "contract_026",
+            "title": "BellringBrandsInc_20190920_S-1_EX-10.12_11817081_EX-10.12_Manufacturing Agreement2",
+            "evaluation": {
+                "exclusivity": false,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": true,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": true,
+                "minimum_commitment": true,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "anti_assignment",
+                "license_grant",
+                "governing_law",
+                "minimum_commitment"
+            ]
+        },
+        {
+            "id": "contract_027",
+            "title": "LiquidmetalTechnologiesInc_20200205_8-K_EX-10.1_11968198_EX-10.1_Development Agreement",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": true,
+                "auto_renewal": true,
+                "minimum_term": true,
+                "termination_convenience": true,
+                "most_favored_nation": true,
+                "ip_transfer": true,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": true,
+                "audit_rights": true,
+                "governing_law": true,
+                "minimum_commitment": true,
+                "warranty": true
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "anti_assignment",
+                "auto_renewal",
+                "minimum_term",
+                "termination_convenience",
+                "most_favored_nation",
+                "ip_transfer",
+                "license_grant",
+                "insurance_required",
+                "audit_rights",
+                "governing_law",
+                "minimum_commitment",
+                "warranty"
+            ]
+        },
+        {
+            "id": "contract_028",
+            "title": "ETELOS,INC_03_09_2004-EX-10.8-DISTRIBUTOR AGREEMENT",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": true,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": true,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "auto_renewal",
+                "license_grant",
+                "governing_law"
+            ]
+        },
+        {
+            "id": "contract_029",
+            "title": "TcPipelinesLp_20160226_10-K_EX-99.12_9454048_EX-99.12_Transportation Agreement",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": true,
+                "auto_renewal": false,
+                "minimum_term": true,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": false,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": true,
+                "governing_law": true,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "anti_assignment",
+                "minimum_term",
+                "audit_rights",
+                "governing_law"
+            ]
+        },
+        {
+            "id": "contract_030",
+            "title": "CoherusBiosciencesInc_20200227_10-K_EX-10.29_12021376_EX-10.29_Development Agreement",
+            "evaluation": {
+                "exclusivity": false,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": false,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "license_grant"
+            ]
+        },
+        {
+            "id": "contract_031",
+            "title": "INNOVIVA,INC_08_07_2014-EX-10.1-COLLABORATION AGREEMENT",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": false,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "license_grant"
+            ]
+        },
+        {
+            "id": "contract_032",
+            "title": "Magenta Therapeutics, Inc. - Master Development and Manufacturing Agreement",
+            "evaluation": {
+                "exclusivity": false,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": true,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": true,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "anti_assignment",
+                "license_grant",
+                "governing_law"
+            ]
+        },
+        {
+            "id": "contract_033",
+            "title": "ADAMSGOLFINC_03_21_2005-EX-10.17-ENDORSEMENT AGREEMENT",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": false,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "license_grant"
+            ]
+        },
+        {
+            "id": "contract_034",
+            "title": "NEXSTARFINANCEHOLDINGSINC_03_27_2002-EX-10.26-OUTSOURCING AGREEMENT",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": true,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "license_grant",
+                "governing_law"
+            ]
+        },
+        {
+            "id": "contract_035",
+            "title": "PenntexMidstreamPartnersLp_20150416_S-1A_EX-10.4_9042833_EX-10.4_Transportation Agreement",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": false,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": false,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "exclusivity"
+            ]
+        },
+        {
+            "id": "contract_036",
+            "title": "ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement",
+            "evaluation": {
+                "exclusivity": false,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": true,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "license_grant",
+                "governing_law"
+            ]
+        },
+        {
+            "id": "contract_037",
+            "title": "CHINARECYCLINGENERGYCORP_11_14_2013-EX-10.6-Cooperation Agreement",
+            "evaluation": {
+                "exclusivity": false,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": false,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": true,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "governing_law"
+            ]
+        },
+        {
+            "id": "contract_038",
+            "title": "WELLSFARGOMORTGAGEBACKEDSECURITIES2006-6TRUST_05_11_2006-EX-10.3-Yield Maintenance Agreement",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": false,
+                "liability_cap": true,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": true,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "liability_cap",
+                "governing_law"
+            ]
+        },
+        {
+            "id": "contract_039",
+            "title": "DigitalCinemaDestinationsCorp_20111220_S-1_EX-10.10_7346719_EX-10.10_Affiliate Agreement",
+            "evaluation": {
+                "exclusivity": false,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": true,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": true,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "anti_assignment",
+                "license_grant",
+                "governing_law"
+            ]
+        },
+        {
+            "id": "contract_040",
+            "title": "SPIENERGYCO,LTD_03_09_2011-EX-99.5-OPERATIONS AND MAINTENANCE AGREEMENT",
+            "evaluation": {
+                "exclusivity": false,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": true,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": true,
+                "audit_rights": false,
+                "governing_law": true,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "anti_assignment",
+                "license_grant",
+                "insurance_required",
+                "governing_law"
+            ]
+        },
+        {
+            "id": "contract_041",
+            "title": "LinkPlusCorp_20050802_8-K_EX-10_3240252_EX-10_Affiliate Agreement",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": true,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": true,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "anti_assignment",
+                "license_grant",
+                "governing_law"
+            ]
+        },
+        {
+            "id": "contract_042",
+            "title": "LOGANSROADHOUSEINC_03_27_1998-EX-10.17-SPONSORSHIP AGREEMENT",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": true,
+                "audit_rights": false,
+                "governing_law": true,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "license_grant",
+                "insurance_required",
+                "governing_law"
+            ]
+        },
+        {
+            "id": "contract_043",
+            "title": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement1",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": false,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": true,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "governing_law"
+            ]
+        },
+        {
+            "id": "contract_044",
+            "title": "ArcaUsTreasuryFund_20200207_N-2_EX-99.K5_11971930_EX-99.K5_Development Agreement",
+            "evaluation": {
+                "exclusivity": false,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": true,
+                "auto_renewal": true,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": false,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": true,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "anti_assignment",
+                "auto_renewal",
+                "governing_law"
+            ]
+        },
+        {
+            "id": "contract_045",
+            "title": "NeoformaInc_19991202_S-1A_EX-10.26_5224521_EX-10.26_Co-Branding Agreement",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": false,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": false,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "license_grant"
+            ]
+        },
+        {
+            "id": "contract_046",
+            "title": "BellringBrandsInc_20190920_S-1_EX-10.12_11817081_EX-10.12_Manufacturing Agreement3",
+            "evaluation": {
+                "exclusivity": false,
+                "non_compete": false,
+                "change_of_control": false,
+                "anti_assignment": true,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": true,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "anti_assignment",
+                "license_grant",
+                "governing_law"
+            ]
+        },
+        {
+            "id": "contract_047",
+            "title": "FEDERATEDGOVERNMENTINCOMESECURITIESINC_04_28_2020-EX-99.SERV AGREE-SERVICES AGREEMENT",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": true,
+                "change_of_control": true,
+                "anti_assignment": true,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": true,
+                "insurance_required": true,
+                "audit_rights": true,
+                "governing_law": true,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "non_compete",
+                "change_of_control",
+                "anti_assignment",
+                "license_grant",
+                "liability_cap",
+                "insurance_required",
+                "audit_rights",
+                "governing_law"
+            ]
+        },
+        {
+            "id": "contract_048",
+            "title": "ChinaRealEstateInformationCorp_20090929_F-1_EX-10.32_4771615_EX-10.32_Content License Agreement",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": true,
+                "change_of_control": false,
+                "anti_assignment": true,
+                "auto_renewal": false,
+                "minimum_term": false,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": true,
+                "liability_cap": false,
+                "insurance_required": false,
+                "audit_rights": false,
+                "governing_law": true,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "non_compete",
+                "anti_assignment",
+                "license_grant",
+                "governing_law"
+            ]
+        },
+        {
+            "id": "contract_049",
+            "title": "PharmagenInc_20120803_8-KA_EX-10.1_7693204_EX-10.1_Endorsement Agreement",
+            "evaluation": {
+                "exclusivity": true,
+                "non_compete": true,
+                "change_of_control": false,
+                "anti_assignment": true,
+                "auto_renewal": false,
+                "minimum_term": true,
+                "termination_convenience": false,
+                "most_favored_nation": false,
+                "ip_transfer": false,
+                "license_grant": false,
+                "liability_cap": false,
+                "insurance_required": true,
+                "audit_rights": false,
+                "governing_law": false,
+                "minimum_commitment": false,
+                "warranty": false
+            },
+            "extracted_tags": [
+                "exclusivity",
+                "non_compete",
+                "anti_assignment",
+                "minimum_term",
+                "insurance_required"
+            ]
+        }
+    ],
+    "metrics": {
+        "total_time_seconds": 1487.2771744728088,
+        "average_time_per_contract_seconds": 29.74554348945618,
+        "successful_responses": 50,
+        "validation_errors": 0
+    }
+}

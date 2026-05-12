@@ -53,7 +53,15 @@ python src/aufgabe_b/data_preparation.py
 ```
 
 ## Lösung für Aufgabe B
+Die Lösung für Aufgabe B befindet sich in `src/aufgabe_b/structured_contract_analyzer.py` und `src/aufgabe_b/structured_contract_analyzer_chunked.py`. Das Skript liest die Verträge ein, verarbeitet sie mit dem ausgewählten Modell und speichert die Ergebnisse in `data/aufgabe_b_results.json` bzw. `data/aufgabe_b_results_chunked.json`.
 
+```bash
+python src/aufgabe_b/structured_contract_analyzer.py
+```
+
+```bash
+python src/aufgabe_b/structured_contract_analyzer_chunked.py
+```
 
 
 ## Fragen und Meine Antworten
@@ -99,11 +107,19 @@ Als letztes würde ich Cloud Services nutzen, die mehrere GPUs und mehr Rechenle
 Wenn ich die mir gegebene Code für Aufgabe B ausführe, habe ich einen Fehler bekommen. Der Fehler war so :`trust_remote_code` is not supported anymore. Please check that the Hugging Face dataset 'theatticusproject/cuad-qa' isn't based on a loading script and remove `trust_remote_code`. Dieser Fehler tritt auf, weil die Hugging Face Bibliothek die Option `trust_remote_code` nicht mehr unterstützt. Um diesen Fehler zu beheben habe ich die datasets Bibliothek durch die Version 2.19.1 ersetzt, da diese Version die `trust_remote_code` Option noch unterstützt.
 
 # 5. Welchen Pfad hast Du gewählt und warum? Welche Alternativen hast Du ausgeschlossen und warum?
+Wie schon bei Aufgabe A habe ich mich für Pfad 1 entschieden. Der Grund dafür ist meine lokale Hardware. LLMs sind ist sehr gut für die lesen und verstehen bei langen Dokumenten jedoch wenn man ihnen zu viel Freiraum lässt, halluzinieren sie gerne. Bei Pfad 1 zwinge ich das LLM durch ein striktes Pydantic-Schema dazu, nur die Extraktion (True/False) vorzunehmen, während ich die Logik und das Sammeln der Ergebnisse in meinem Code kontrolliere. Das gibt mir mehr Sicherheit, die Regeln genau so anzuwenden, wie sie definiert sind.
+
+Pfad 2 und Pfad 3 habe ich ausgeschlossen, weil schon die Ollama nutzt fast alle Ressourcen meiner Rechner und eine Vektor Datenbank und Embedding Modell aufzubauen, würde noch mehr Ressourcen benötigen.
 
 # 6. Wenn RAG: Welches Embedding-Modell, welcher Chunking-Ansatz, welche Retrieval-Strategie? Hast Du Alternativen ausprobiert?
+Da ich mich für Pfad 1 entschieden habe, habe ich keinen RAG-Ansatz implementiert.
 
 # 7. Was hast Du ausprobiert und verworfen?
+Ich habe zuerst versucht, die gesamte Vertragsanalyse in einem einzigen Schritt durchzuführen, indem ich das Modell direkt mit dem gesamten Vertrag gefüttert habe. Mein Program tritt sofort mit einem "CUDA Out of Memory" Fehler auf. Als ich recherchiert habe, habe ich gesehen, dass LLMs Schwierigkeiten haben, lange Dokumente zu verarbeiten, insbesondere wenn sie komplexe Strukturen und viele Informationen enthalten. Darum habe ich versucht, den Vertrag nach 15.000 Zeichen abzuschneiden. Das hat zwar den Fehler behoben, alles funktioniert. Die Precision war 85% aber die Recall war nicht so gut, und zwar nur 31%. Höchstwahrscheinlich waren wichtige Informationen in den abgeschnittenen Teilen des Vertrags enthalten. Darum habe ich mich für einen Chunking Ansatz entschieden, bei dem ich den Vertrag in 15.000 Zeichen aufteile und jedes Chunk einzeln analysiere. Das hat lange gedauert, ungefähr 4x so lange wie die vorherige Version, aber die Recall hat sich deutlich verbessert, von 31% auf 76%, während die Precision ein bisschen gesunken ist, von 85% auf 76%.
 
 # 8. Wo macht Dein System Fehler — Extraktion, Retrieval oder Regelanwendung?
+Mein System macht Fehler hauptsächlich bei der Extraktion. Durch Vergleich den gechunkten Ansatz mit dem unchunked Ansatz habe ich gesehen, dass die Precision von 85% auf 76% gesunken ist, was darauf hindeutet, dass das Modell mehr False Positives und True Positives generiert hat. Es kann sein, dass das Modell zwischen den Chunks den Kontext verloren hat, was zu ungenaueren Extraktionen geführt hat. 
 
 # 9. Wenn Du eine Woche mehr Zeit hättest — was würdest Du als Nächstes angehen?
+Wenn ich mehr Zeit und Ressourcen hätte, würde ich versuchen, Pfad 2 oder Pfad 3 zu implementieren, um die Vorteile von RAG zu nutzen. Mein Chunking-Ansatz hat mir gezeigt, dass das Lesen des gesamten Vertrags den Recall zwar verbessert, aber extrem viel Zeit kostet und die Precision verschlechtert. Mit einem RAG-Ansatz könnte ich die Informationen effizienter extrahieren, indem ich vorab relevante Abschnitte des Vertrags identifiziere und nur diese Abschnitte an das Modell weitergebe.
+Außerdem würde ich verschiedene Chunk Größen und Overlaps ausprobieren, um zu sehen, ob ich die Balance zwischen Precision und Recall noch weiter optimieren kann.
